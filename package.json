@@ -13,6 +13,9 @@
     ]
   },
   "scripts": {
+    "dev": "next dev ./frontend -p 3001",
+    "build": "next build ./frontend",
+    "start": "next start ./frontend",
     "lint": "yarn lint-code && yarn lint-styles",
     "lint-code": "yarn eslint app/javascript spec/javascript",
     "lint-styles": "yarn stylelint \"app/javascript/**/*.scss\"",
@@ -164,8 +167,10 @@
     "lodash.isequal": "^4.5.0",
     "lodash.merge": "^4.6.2",
     "lodash.throttle": "^4.1.1",
+    "next": "^11.1.2",
+    "next-translate": "^1.1.0",
     "normalize.css": "^8.0.1",
-    "postcss": "^8.1.1",
+    "postcss": "^8.3.8",
     "prop-types": "^15.7.2",
     "react": "^17.0.2",
     "react-compound-slider": "^2.5.0",
